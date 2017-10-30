@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A379ADA1F78DBD100BD8972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A379AD91F78DBD100BD8972 /* AppDelegate.swift */; };
+		9A379ADC1F78DBD100BD8972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A379ADB1F78DBD100BD8972 /* ViewController.swift */; };
+		9A379ADF1F78DBD200BD8972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A379ADD1F78DBD200BD8972 /* Main.storyboard */; };
+		9A379AE11F78DBD200BD8972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A379AE01F78DBD200BD8972 /* Assets.xcassets */; };
+		9A379AE41F78DBD200BD8972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A379AE21F78DBD200BD8972 /* LaunchScreen.storyboard */; };
+		9A49479B1F99E62D002D3FDA /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49479A1F99E62D002D3FDA /* MessageViewController.swift */; };
+		9A540CE91F87ABD6007362A5 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A540CE81F87ABD6007362A5 /* MainTableViewCell.swift */; };
+		9A540CEC1F87B090007362A5 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A540CEB1F87B090007362A5 /* DLRadioButton.m */; };
+		9A6C59E41F94AA0D00AAEB03 /* CustomGorevEkle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C59E31F94AA0D00AAEB03 /* CustomGorevEkle.xib */; };
+		9A6C59E61F94AA4E00AAEB03 /* GorevEkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C59E51F94AA4E00AAEB03 /* GorevEkle.swift */; };
+		9A7F02B41F7B7FE00065ECA4 /* SwiftAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F02B31F7B7FDD0065ECA4 /* SwiftAlertView.swift */; };
+		9A7FF0541F8B56720036FA02 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FF04D1F8B56710036FA02 /* BEMPathManager.m */; };
+		9A7FF0551F8B56720036FA02 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FF04E1F8B56720036FA02 /* BEMCheckBoxGroup.m */; };
+		9A7FF0561F8B56720036FA02 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FF04F1F8B56720036FA02 /* BEMAnimationManager.m */; };
+		9A7FF0571F8B56720036FA02 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FF0501F8B56720036FA02 /* BEMCheckBox.m */; };
+		9ACE7D801F7A76BE006EB43D /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE7D7F1F7A76BE006EB43D /* CustomAlert.xib */; };
+		9ACE7D841F7A79BD006EB43D /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE7D831F7A79BD006EB43D /* CustomAlertView.swift */; };
+		9AFC55F41F78EEE70046D2A2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC55F31F78EEE70046D2A2 /* RegisterViewController.swift */; };
+		9AFC55F81F79277B0046D2A2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC55F71F79277A0046D2A2 /* SWRevealViewController.m */; };
+		9AFC55FA1F7928A90046D2A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC55F91F7928A90046D2A2 /* MainViewController.swift */; };
+		9AFC55FC1F7931520046D2A2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC55FB1F7931520046D2A2 /* MenuViewController.swift */; };
+		9AFC55FE1F7931B30046D2A2 /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC55FD1F7931B30046D2A2 /* menuTableViewCell.swift */; };
+		CEEAC138329C4D965B6788E6 /* Pods_Ortaklist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7611FABFBEFC1FB5272F3A /* Pods_Ortaklist.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A379AD61F78DBD100BD8972 /* Ortaklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ortaklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A379AD91F78DBD100BD8972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A379ADB1F78DBD100BD8972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A379ADE1F78DBD200BD8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A379AE01F78DBD200BD8972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A379AE31F78DBD200BD8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A379AE51F78DBD200BD8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A49479A1F99E62D002D3FDA /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		9A540CE81F87ABD6007362A5 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9A540CEA1F87B090007362A5 /* DLRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		9A540CEB1F87B090007362A5 /* DLRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		9A6C59E31F94AA0D00AAEB03 /* CustomGorevEkle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomGorevEkle.xib; sourceTree = "<group>"; };
+		9A6C59E51F94AA4E00AAEB03 /* GorevEkle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorevEkle.swift; sourceTree = "<group>"; };
+		9A7F02B31F7B7FDD0065ECA4 /* SwiftAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftAlertView.swift; path = Ortaklist/model/SwiftAlertView.swift; sourceTree = SOURCE_ROOT; };
+		9A7FF04C1F8B56710036FA02 /* BEMCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		9A7FF04D1F8B56710036FA02 /* BEMPathManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		9A7FF04E1F8B56720036FA02 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		9A7FF04F1F8B56720036FA02 /* BEMAnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		9A7FF0501F8B56720036FA02 /* BEMCheckBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		9A7FF0511F8B56720036FA02 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		9A7FF0521F8B56720036FA02 /* BEMAnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		9A7FF0531F8B56720036FA02 /* BEMPathManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		9ACE7D7F1F7A76BE006EB43D /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
+		9ACE7D831F7A79BD006EB43D /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		9AFC55F31F78EEE70046D2A2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9AFC55F51F7927790046D2A2 /* Ortaklist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ortaklist-Bridging-Header.h"; sourceTree = "<group>"; };
+		9AFC55F61F79277A0046D2A2 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9AFC55F71F79277A0046D2A2 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9AFC55F91F7928A90046D2A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9AFC55FB1F7931520046D2A2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9AFC55FD1F7931B30046D2A2 /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		AC618CA570B630A5E8CF1247 /* Pods-Ortaklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ortaklist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ortaklist/Pods-Ortaklist.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7611FABFBEFC1FB5272F3A /* Pods_Ortaklist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ortaklist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46B5B25A310FBD54A3BD560 /* Pods-Ortaklist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ortaklist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ortaklist/Pods-Ortaklist.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A379AD31F78DBD100BD8972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEAC138329C4D965B6788E6 /* Pods_Ortaklist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A61A07120143FBF3BCFE1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7611FABFBEFC1FB5272F3A /* Pods_Ortaklist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69ECDB2B3CB85E36E04A2A51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC618CA570B630A5E8CF1247 /* Pods-Ortaklist.debug.xcconfig */,
+				E46B5B25A310FBD54A3BD560 /* Pods-Ortaklist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A379ACD1F78DBD100BD8972 = {
+			isa = PBXGroup;
+			children = (
+				9A379AD81F78DBD100BD8972 /* Ortaklist */,
+				9A379AD71F78DBD100BD8972 /* Products */,
+				69ECDB2B3CB85E36E04A2A51 /* Pods */,
+				2A61A07120143FBF3BCFE1F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A379AD71F78DBD100BD8972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A379AD61F78DBD100BD8972 /* Ortaklist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A379AD81F78DBD100BD8972 /* Ortaklist */ = {
+			isa = PBXGroup;
+			children = (
+				9A7F02B51F7BA7A30065ECA4 /* model */,
+				9A7F02B61F7BA7BB0065ECA4 /* Controller */,
+				9A7F02B71F7BA7D80065ECA4 /* View */,
+				9A379AE01F78DBD200BD8972 /* Assets.xcassets */,
+				9A379AE51F78DBD200BD8972 /* Info.plist */,
+				9AFC55F51F7927790046D2A2 /* Ortaklist-Bridging-Header.h */,
+			);
+			path = Ortaklist;
+			sourceTree = "<group>";
+		};
+		9A7F02B51F7BA7A30065ECA4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9A7FF0521F8B56720036FA02 /* BEMAnimationManager.h */,
+				9A7FF04F1F8B56720036FA02 /* BEMAnimationManager.m */,
+				9A7FF04C1F8B56710036FA02 /* BEMCheckBox.h */,
+				9A7FF0501F8B56720036FA02 /* BEMCheckBox.m */,
+				9A7FF0511F8B56720036FA02 /* BEMCheckBoxGroup.h */,
+				9A7FF04E1F8B56720036FA02 /* BEMCheckBoxGroup.m */,
+				9A7FF0531F8B56720036FA02 /* BEMPathManager.h */,
+				9A7FF04D1F8B56710036FA02 /* BEMPathManager.m */,
+				9A540CEA1F87B090007362A5 /* DLRadioButton.h */,
+				9A540CEB1F87B090007362A5 /* DLRadioButton.m */,
+				9A379AD91F78DBD100BD8972 /* AppDelegate.swift */,
+				9A7F02B31F7B7FDD0065ECA4 /* SwiftAlertView.swift */,
+				9AFC55F61F79277A0046D2A2 /* SWRevealViewController.h */,
+				9AFC55F71F79277A0046D2A2 /* SWRevealViewController.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9A7F02B61F7BA7BB0065ECA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A540CE81F87ABD6007362A5 /* MainTableViewCell.swift */,
+				9AFC55FD1F7931B30046D2A2 /* menuTableViewCell.swift */,
+				9AFC55FB1F7931520046D2A2 /* MenuViewController.swift */,
+				9AFC55F91F7928A90046D2A2 /* MainViewController.swift */,
+				9AFC55F31F78EEE70046D2A2 /* RegisterViewController.swift */,
+				9A49479A1F99E62D002D3FDA /* MessageViewController.swift */,
+				9A379ADB1F78DBD100BD8972 /* ViewController.swift */,
+				9ACE7D831F7A79BD006EB43D /* CustomAlertView.swift */,
+				9A6C59E51F94AA4E00AAEB03 /* GorevEkle.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A7F02B71F7BA7D80065ECA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A379ADD1F78DBD200BD8972 /* Main.storyboard */,
+				9A379AE21F78DBD200BD8972 /* LaunchScreen.storyboard */,
+				9ACE7D7F1F7A76BE006EB43D /* CustomAlert.xib */,
+				9A6C59E31F94AA0D00AAEB03 /* CustomGorevEkle.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A379AD51F78DBD100BD8972 /* Ortaklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A379AE81F78DBD200BD8972 /* Build configuration list for PBXNativeTarget "Ortaklist" */;
+			buildPhases = (
+				A9B3CD0BF720AC73C57521D7 /* [CP] Check Pods Manifest.lock */,
+				9A379AD21F78DBD100BD8972 /* Sources */,
+				9A379AD31F78DBD100BD8972 /* Frameworks */,
+				9A379AD41F78DBD100BD8972 /* Resources */,
+				A3048B9BBACDB70D6FA9BCC4 /* [CP] Embed Pods Frameworks */,
+				4525EADE42074A316D286D6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ortaklist;
+			productName = Ortaklist;
+			productReference = 9A379AD61F78DBD100BD8972 /* Ortaklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A379ACE1F78DBD100BD8972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ortakfikir;
+				TargetAttributes = {
+					9A379AD51F78DBD100BD8972 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A379AD11F78DBD100BD8972 /* Build configuration list for PBXProject "Ortaklist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A379ACD1F78DBD100BD8972;
+			productRefGroup = 9A379AD71F78DBD100BD8972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A379AD51F78DBD100BD8972 /* Ortaklist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A379AD41F78DBD100BD8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A379AE41F78DBD200BD8972 /* LaunchScreen.storyboard in Resources */,
+				9A379AE11F78DBD200BD8972 /* Assets.xcassets in Resources */,
+				9A379ADF1F78DBD200BD8972 /* Main.storyboard in Resources */,
+				9A6C59E41F94AA0D00AAEB03 /* CustomGorevEkle.xib in Resources */,
+				9ACE7D801F7A76BE006EB43D /* CustomAlert.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4525EADE42074A316D286D6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ortaklist/Pods-Ortaklist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3048B9BBACDB70D6FA9BCC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ortaklist/Pods-Ortaklist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/PCLBlurEffectAlert/PCLBlurEffectAlert.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PCLBlurEffectAlert.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ortaklist/Pods-Ortaklist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B3CD0BF720AC73C57521D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ortaklist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A379AD21F78DBD100BD8972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C59E61F94AA4E00AAEB03 /* GorevEkle.swift in Sources */,
+				9A540CE91F87ABD6007362A5 /* MainTableViewCell.swift in Sources */,
+				9A540CEC1F87B090007362A5 /* DLRadioButton.m in Sources */,
+				9A7FF0541F8B56720036FA02 /* BEMPathManager.m in Sources */,
+				9A7FF0571F8B56720036FA02 /* BEMCheckBox.m in Sources */,
+				9ACE7D841F7A79BD006EB43D /* CustomAlertView.swift in Sources */,
+				9AFC55FE1F7931B30046D2A2 /* menuTableViewCell.swift in Sources */,
+				9A379ADC1F78DBD100BD8972 /* ViewController.swift in Sources */,
+				9A7F02B41F7B7FE00065ECA4 /* SwiftAlertView.swift in Sources */,
+				9AFC55FC1F7931520046D2A2 /* MenuViewController.swift in Sources */,
+				9A7FF0551F8B56720036FA02 /* BEMCheckBoxGroup.m in Sources */,
+				9A379ADA1F78DBD100BD8972 /* AppDelegate.swift in Sources */,
+				9A7FF0561F8B56720036FA02 /* BEMAnimationManager.m in Sources */,
+				9A49479B1F99E62D002D3FDA /* MessageViewController.swift in Sources */,
+				9AFC55F41F78EEE70046D2A2 /* RegisterViewController.swift in Sources */,
+				9AFC55F81F79277B0046D2A2 /* SWRevealViewController.m in Sources */,
+				9AFC55FA1F7928A90046D2A2 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A379ADD1F78DBD200BD8972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A379ADE1F78DBD200BD8972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A379AE21F78DBD200BD8972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A379AE31F78DBD200BD8972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A379AE61F78DBD200BD8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A379AE71F78DBD200BD8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A379AE91F78DBD200BD8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC618CA570B630A5E8CF1247 /* Pods-Ortaklist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Ortaklist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ortakfikir.Ortaklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ortaklist/Ortaklist-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9A379AEA1F78DBD200BD8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46B5B25A310FBD54A3BD560 /* Pods-Ortaklist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Ortaklist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ortakfikir.Ortaklist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ortaklist/Ortaklist-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A379AD11F78DBD100BD8972 /* Build configuration list for PBXProject "Ortaklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A379AE61F78DBD200BD8972 /* Debug */,
+				9A379AE71F78DBD200BD8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A379AE81F78DBD200BD8972 /* Build configuration list for PBXNativeTarget "Ortaklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A379AE91F78DBD200BD8972 /* Debug */,
+				9A379AEA1F78DBD200BD8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A379ACE1F78DBD100BD8972 /* Project object */;
+}
