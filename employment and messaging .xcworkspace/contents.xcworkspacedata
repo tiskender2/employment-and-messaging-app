@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Ortaklist.xcodeproj">
+      location = "group:/Users/macmini/Desktop/employment and messaging app/employment and messaging .xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

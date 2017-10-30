@@ -59,12 +59,12 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
     }
     func calıstır()
     {
-          gorevlendirelecekler(urlString: "http://ortaklist.com/webservices/ios/service_app_22042017/liste_detay.php")
+          gorevlendirelecekler(urlString: "")
         
     }
     func gorevDuzenleme()
     {
-        gorevDuzenle(urlString: "http://ortaklist.com/webservices/ios/service_app_22042017/gorev_detay.php")
+        gorevDuzenle(urlString: "")
        
     }
     func gorevDuzenle(urlString:String)
@@ -74,7 +74,7 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
         let urlRequest = URL(string: urlString)
         var request = URLRequest(url: urlRequest! as URL)
         request.httpMethod = "POST"
-        let parameters = "gorevid="+gorevId
+        let parameters = ""
         request.httpBody = parameters.data(using: String.Encoding.utf8)
         let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
             
@@ -85,7 +85,7 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
             else {
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! NSDictionary
-                    if let gelenBaslik = json["baslik"] as? String
+                    if let gelenBaslik = json[""] as? String
                     {
                         self.baslik=gelenBaslik
                         DispatchQueue.main.async {
@@ -93,51 +93,51 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
                         }
                        
                     }
-                    if let gelenDetay = json["detay"] as? String
+                    if let gelenDetay = json[""] as? String
                     {
                         self.detay=gelenDetay
                            DispatchQueue.main.async {
                         self.detayText.text!=self.detay
                         }
                     }
-                    if let gelenBasTarih = json["bastarih"] as? String
+                    if let gelenBasTarih = json[""] as? String
                     {
                         self.baslangicZamanı=gelenBasTarih
                            DispatchQueue.main.async {
                         self.startDate.text!=self.baslangicZamanı
                         }
                     }
-                    if let gelenSonTarih = json["sontarih"] as? String
+                    if let gelenSonTarih = json[""] as? String
                     {
                         self.sonZamani=gelenSonTarih
                            DispatchQueue.main.async {
                         self.endDate.text=self.sonZamani
                         }
                     }
-                    if let gelenlisteId = json["listeid"] as? String
+                    if let gelenlisteId = json[""] as? String
                     {
                         self.listeID=gelenlisteId
                        
-                        self.gorevlendirelecekler(urlString: "http://ortaklist.com/webservices/ios/service_app_22042017/liste_detay.php")
+                        self.gorevlendirelecekler(urlString: "")
                     }
                   
-                    if let jsonDic = json["secilmis_uyeler"] as! NSArray?
+                    if let jsonDic = json[""] as! NSArray?
                     {
                         for i in 0..<jsonDic.count
                         {
                             if let jsonVeri = jsonDic[i] as? NSDictionary
                             {
-                                if let gelenIsim = jsonVeri["isim"] as? String
+                                if let gelenIsim = jsonVeri[""] as? String
                                 {
                                     self.sIsim.append(gelenIsim)
                                     
                                 }
-                                if let gelenEposta = jsonVeri["eposta"] as? String
+                                if let gelenEposta = jsonVeri[""] as? String
                                 {
                                     self.sEposta.append(gelenEposta)
                                     
                                 }
-                                if let gelenKadi = jsonVeri["kullanici_adi"] as? String
+                                if let gelenKadi = jsonVeri[""] as? String
                                 {
                                     self.sKadi.append(gelenKadi)
                                     
@@ -181,12 +181,12 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
         if createBtn.titleLabel?.text == "DÜZENLE"
         {
            
-            gorevOlustur(urlString: "http://ortaklist.com/webservices/ios/service_app_22042017/gorevi_duzenle.php")
+            gorevOlustur(urlString: "")
            
         }
         else
         {
-        gorevOlustur(urlString: "http://ortaklist.com/webservices/ios/service_app_22042017/yeni_gorev_ekle.php")
+        gorevOlustur(urlString: "")
         }
         secilenuyeler=""
         self.alertSwift.dismiss()
@@ -200,12 +200,12 @@ class GorevEkle: UIView,UITextFieldDelegate,UITableViewDelegate,UITableViewDataS
         
         if createBtn.titleLabel?.text == "DÜZENLE"
         {
-             parameters = "baslik="+baslıkText.text!+"&detay="+detayText.text!+"&secilenuyeler="+secilenuyeler+"&baslangic="+startDate.text!+"&sonbulma="+endDate.text!+"&gorevid="+gorevId+"&uyeid="+uyeId
+             parameters = ""
            
         }
         else
         {
-             parameters = "baslik="+baslıkText.text!+"&detay="+detayText.text!+"&baslangic="+startDate.text!+"&sonbulma="+endDate.text!+"&listeid="+listeID+"&uyeid="+uyeId+"&secilenuyeler="+secilenuyeler
+             parameters = ""
         }
         request.httpBody = parameters.data(using: String.Encoding.utf8)
         let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
